@@ -13,7 +13,7 @@ const options = [
 ].sort((a, b) => a.label.localeCompare(b.label));
 
 const Translate = () => {
-  const [language, setLanguage] = useState([]);
+  const [language, setLanguage] = useState({});
   const [text, setText] = useState("");
   const [debouncedText, setDebouncedText] = useState(text);
 
